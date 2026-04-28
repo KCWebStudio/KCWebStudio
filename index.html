@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KC.WebStudio — Siti web professionali</title>
+    <meta name="description" content="KC.WebStudio crea portfolio professionali, siti per piccole attività e landing page. Design moderno, hosting gratuito, pagamento unico." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kc-style.css" />
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- NAV -->
+<nav id="nav">
+    <a href="#home" class="nav-logo">KC<span>.</span>WebStudio</a>
+
+    <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="#servizi">Servizi</a>
+        <a href="#lavori">Lavori</a>
+        <a href="#prezzi">Prezzi</a>
+        <a href="#chi-siamo">Chi siamo</a>
+        <a href="#contatti" class="nav-cta">Inizia ora →</a>
+    </div>
+
+    <!-- Lang toggle -->
+    <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="it">IT</button>
+        <span>/</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+
+    <div class="hero-content">
+        <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span data-it="Disponibile per nuovi progetti" data-en="Available for new projects">Disponibile per nuovi progetti</span>
+        </div>
+
+        <h1 class="hero-title">
+            <span class="title-line" data-it="Il tuo sito web" data-en="Your website">Il tuo sito web</span>
+            <span class="title-line title-line--accent" data-it="professionale." data-en="professional.">professionale.</span>
+        </h1>
+
+        <p class="hero-sub" data-it="Portfolio, siti per attività e landing page. Design su misura, hosting gratuito, pagamento unico." data-en="Portfolios, business websites and landing pages. Custom design, free hosting, one-time payment.">
+            Portfolio, siti per attività e landing page. Design su misura, hosting gratuito, pagamento unico.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#contatti" class="btn btn--primary" data-it="Inizia il tuo progetto" data-en="Start your project">Inizia il tuo progetto</a>
+            <a href="#lavori" class="btn btn--ghost" data-it="Vedi i lavori" data-en="See our work">Vedi i lavori</a>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-n">3–7</span>
+                <span class="stat-l" data-it="giorni di consegna" data-en="days delivery">giorni di consegna</span>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat">
+                <span class="stat-n">€0</span>
+                <span class="stat-l" data-it="costi mensili" data-en="monthly costs">costi mensili</span>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat">
+                <span class="stat-n">100%</span>
+                <span class="stat-l" data-it="personalizzato" data-en="custom made">personalizzato</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="browser-mockup">
+            <div class="browser-bar">
+                <div class="browser-dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url">kcwebstudio.github.io/il-tuo-nome</div>
+            </div>
+            <div class="browser-content">
+                <div class="mock-hero">
+                    <div class="mock-tag"></div>
+                    <div class="mock-h1"></div>
+                    <div class="mock-h1 mock-h1--short"></div>
+                    <div class="mock-p"></div>
+                    <div class="mock-p mock-p--short"></div>
+                    <div class="mock-btns">
+                        <div class="mock-btn mock-btn--filled"></div>
+                        <div class="mock-btn"></div>
+                    </div>
+                </div>
+                <div class="mock-cards">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVIZI -->
+<section id="servizi" class="section">
+    <div class="section-inner">
+        <div class="section-header">
+            <div class="section-tag" data-it="Cosa facciamo" data-en="What we do">Cosa facciamo</div>
+            <h2 data-it="Tre tipi di sito,<br>un solo studio." data-en="Three types of site,<br>one studio.">Tre tipi di sito,<br>un solo studio.</h2>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card" data-index="01">
+                <div class="service-icon">◈</div>
+                <h3 data-it="Portfolio Professionale" data-en="Professional Portfolio">Portfolio Professionale</h3>
+                <p data-it="Per chi cerca lavoro, freelancer e professionisti. Il tuo CV online — moderno, animato e ottimizzato per fare colpo al primo sguardo." data-en="For job seekers, freelancers and professionals. Your online CV — modern, animated and optimised to impress at first glance.">Per chi cerca lavoro, freelancer e professionisti. Il tuo CV online — moderno, animato e ottimizzato per fare colpo al primo sguardo.</p>
+                <ul class="service-list">
+                    <li data-it="Design personalizzato" data-en="Custom design">Design personalizzato</li>
+                    <li data-it="Animazioni ed effetti visivi" data-en="Animations & visual effects">Animazioni ed effetti visivi</li>
+                    <li data-it="Sezioni: about, skills, progetti, contatti" data-en="Sections: about, skills, projects, contacts">Sezioni: about, skills, progetti, contatti</li>
+                    <li data-it="Hosting gratuito incluso" data-en="Free hosting included">Hosting gratuito incluso</li>
+                </ul>
+                <span class="service-from" data-it="Da €45" data-en="From €45">Da €45</span>
+            </div>
+
+            <div class="service-card service-card--featured" data-index="02">
+                <div class="service-badge" data-it="Più richiesto" data-en="Most popular">Più richiesto</div>
+                <div class="service-icon">⬡</div>
+                <h3 data-it="Sito per Attività" data-en="Business Website">Sito per Attività</h3>
+                <p data-it="Per artigiani, negozi, studi e piccole imprese. Una vetrina digitale professionale che ti fa trovare online e conquista nuovi clienti." data-en="For craftspeople, shops, studios and small businesses. A professional digital showcase that gets you found online and wins new customers.">Per artigiani, negozi, studi e piccole imprese. Una vetrina digitale professionale che ti fa trovare online e conquista nuovi clienti.</p>
+                <ul class="service-list">
+                    <li data-it="Home, servizi, chi siamo, contatti" data-en="Home, services, about, contacts">Home, servizi, chi siamo, contatti</li>
+                    <li data-it="Form contatto e mappa" data-en="Contact form and map">Form contatto e mappa</li>
+                    <li data-it="SEO base ottimizzato" data-en="Basic SEO optimisation">SEO base ottimizzato</li>
+                    <li data-it="Dominio personalizzato (opz.)" data-en="Custom domain (opt.)">Dominio personalizzato (opz.)</li>
+                </ul>
+                <span class="service-from" data-it="Da €90" data-en="From €90">Da €90</span>
+            </div>
+
+            <div class="service-card" data-index="03">
+                <div class="service-icon">▲</div>
+                <h3 data-it="Landing Page" data-en="Landing Page">Landing Page</h3>
+                <p data-it="Una pagina singola, ad alto impatto. Perfetta per lanciare un prodotto, raccogliere contatti o promuovere un evento. Diretta, veloce, efficace." data-en="A single, high-impact page. Perfect for launching a product, collecting leads or promoting an event. Direct, fast, effective.">Una pagina singola, ad alto impatto. Perfetta per lanciare un prodotto, raccogliere contatti o promuovere un evento. Diretta, veloce, efficace.</p>
+                <ul class="service-list">
+                    <li data-it="Hero section ottimizzata" data-en="Optimised hero section">Hero section ottimizzata</li>
+                    <li data-it="CTA e form di contatto" data-en="CTA and contact form">CTA e form di contatto</li>
+                    <li data-it="Consegna in 3 giorni" data-en="3-day delivery">Consegna in 3 giorni</li>
+                    <li data-it="Ottimizzata per mobile" data-en="Mobile optimised">Ottimizzata per mobile</li>
+                </ul>
+                <span class="service-from" data-it="Da €60" data-en="From €60">Da €60</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- LAVORI / PORTFOLIO ESEMPI -->
+<section id="lavori" class="section section--dark">
+    <div class="section-inner">
+        <div class="section-header">
+            <div class="section-tag" data-it="I nostri lavori" data-en="Our work">I nostri lavori</div>
+            <h2 data-it="Quello che vedi<br>è quello che ottieni." data-en="What you see<br>is what you get.">Quello che vedi<br>è quello che ottieni.</h2>
+        </div>
+
+        <div class="works-grid">
+
+            <div class="work-card work-card--wide">
+                <div class="work-preview work-preview--portfolio">
+                    <div class="wp-nav">
+                        <div class="wp-logo">K.C</div>
+                        <div class="wp-links"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="wp-hero">
+                        <div class="wp-label"></div>
+                        <div class="wp-title"></div>
+                        <div class="wp-title wp-title--short"></div>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <span class="work-type" data-it="Portfolio" data-en="Portfolio">Portfolio</span>
+                    <h4 data-it="Kevin Como — Commissioning Specialist" data-en="Kevin Como — Commissioning Specialist">Kevin Como — Commissioning Specialist</h4>
+                    <a href="https://kcwebstudio.github.io/portfolio/" target="_blank" class="work-link" data-it="Visita il sito →" data-en="Visit site →">Visita il sito →</a>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-preview work-preview--coming">
+                    <div class="coming-text" data-it="Prossimamente" data-en="Coming soon">Prossimamente</div>
+                </div>
+                <div class="work-info">
+                    <span class="work-type" data-it="Attività locale" data-en="Local business">Attività locale</span>
+                    <h4 data-it="Il tuo sito potrebbe essere qui" data-en="Your site could be here">Il tuo sito potrebbe essere qui</h4>
+                    <a href="#contatti" class="work-link" data-it="Inizia ora →" data-en="Start now →">Inizia ora →</a>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-preview work-preview--coming">
+                    <div class="coming-text" data-it="Prossimamente" data-en="Coming soon">Prossimamente</div>
+                </div>
+                <div class="work-info">
+                    <span class="work-type" data-it="Landing Page" data-en="Landing Page">Landing Page</span>
+                    <h4 data-it="Il tuo sito potrebbe essere qui" data-en="Your site could be here">Il tuo sito potrebbe essere qui</h4>
+                    <a href="#contatti" class="work-link" data-it="Inizia ora →" data-en="Start now →">Inizia ora →</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PREZZI -->
+<section id="prezzi" class="section">
+    <div class="section-inner">
+        <div class="section-header">
+            <div class="section-tag" data-it="Prezzi trasparenti" data-en="Transparent pricing">Prezzi trasparenti</div>
+            <h2 data-it="Nessun abbonamento.<br>Nessuna sorpresa." data-en="No subscriptions.<br>No surprises.">Nessun abbonamento.<br>Nessuna sorpresa.</h2>
+        </div>
+
+        <div class="launch-banner">
+            <span class="launch-pulse"></span>
+            <span data-it="🚀 Prezzi di lancio — disponibilità limitata per i primi clienti" data-en="🚀 Launch pricing — limited availability for first clients">🚀 Prezzi di lancio — disponibilità limitata per i primi clienti</span>
+        </div>
+
+        <div class="pricing-grid">
+
+            <div class="pricing-card">
+                <div class="pricing-name" data-it="Base" data-en="Base">Base</div>
+                <div class="pricing-price">€45</div>
+                <div class="pricing-note" data-it="pagamento unico" data-en="one-time payment">pagamento unico</div>
+                <ul class="pricing-list">
+                    <li data-it="Design personalizzato" data-en="Custom design">Design personalizzato</li>
+                    <li data-it="4–5 sezioni" data-en="4–5 sections">4–5 sezioni</li>
+                    <li data-it="Responsive mobile & desktop" data-en="Mobile & desktop responsive">Responsive mobile & desktop</li>
+                    <li data-it="Hosting gratuito GitHub Pages" data-en="Free GitHub Pages hosting">Hosting gratuito GitHub Pages</li>
+                    <li class="disabled" data-it="Animazioni avanzate" data-en="Advanced animations">Animazioni avanzate</li>
+                    <li class="disabled" data-it="Dominio personalizzato" data-en="Custom domain">Dominio personalizzato</li>
+                </ul>
+                <a href="#contatti" class="btn btn--outline" data-it="Richiedi info" data-en="Get in touch">Richiedi info</a>
+            </div>
+
+            <div class="pricing-card pricing-card--featured">
+                <div class="pricing-popular" data-it="Più scelto" data-en="Most chosen">Più scelto</div>
+                <div class="pricing-name" data-it="Pro" data-en="Pro">Pro</div>
+                <div class="pricing-price">€90</div>
+                <div class="pricing-note" data-it="pagamento unico" data-en="one-time payment">pagamento unico</div>
+                <ul class="pricing-list">
+                    <li data-it="Tutto del Base" data-en="Everything in Base">Tutto del Base</li>
+                    <li data-it="Animazioni & effetti visivi" data-en="Animations & visual effects">Animazioni & effetti visivi</li>
+                    <li data-it="Sezione progetti dettagliata" data-en="Detailed projects section">Sezione progetti dettagliata</li>
+                    <li data-it="Form contatti + WhatsApp" data-en="Contact form + WhatsApp">Form contatti + WhatsApp</li>
+                    <li data-it="Effetto typing personalizzato" data-en="Custom typing effect">Effetto typing personalizzato</li>
+                    <li class="disabled" data-it="Dominio personalizzato" data-en="Custom domain">Dominio personalizzato</li>
+                </ul>
+                <a href="#contatti" class="btn btn--primary" data-it="Iniziamo" data-en="Let's start">Iniziamo</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-name" data-it="Premium" data-en="Premium">Premium</div>
+                <div class="pricing-price">€160</div>
+                <div class="pricing-note" data-it="pagamento unico" data-en="one-time payment">pagamento unico</div>
+                <ul class="pricing-list">
+                    <li data-it="Tutto del Pro" data-en="Everything in Pro">Tutto del Pro</li>
+                    <li data-it="Dominio personalizzato incluso" data-en="Custom domain included">Dominio personalizzato incluso</li>
+                    <li data-it="SEO base ottimizzato" data-en="Basic SEO optimisation">SEO base ottimizzato</li>
+                    <li data-it="30 giorni supporto post-consegna" data-en="30 days post-delivery support">30 giorni supporto post-consegna</li>
+                    <li data-it="Modifiche illimitate nel periodo" data-en="Unlimited edits in the period">Modifiche illimitate nel periodo</li>
+                    <li data-it="Consegna prioritaria" data-en="Priority delivery">Consegna prioritaria</li>
+                </ul>
+                <a href="#contatti" class="btn btn--outline" data-it="Richiedi info" data-en="Get in touch">Richiedi info</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROCESSO -->
+<section class="section section--process">
+    <div class="section-inner">
+        <div class="section-header">
+            <div class="section-tag" data-it="Come lavoriamo" data-en="How we work">Come lavoriamo</div>
+            <h2 data-it="Semplice,<br>veloce, consegnato." data-en="Simple,<br>fast, delivered.">Semplice,<br>veloce, consegnato.</h2>
+        </div>
+
+        <div class="process-track">
+            <div class="process-line"></div>
+            <div class="process-step">
+                <div class="ps-num">01</div>
+                <div class="ps-body">
+                    <h4 data-it="Ci contatti" data-en="You contact us">Ci contatti</h4>
+                    <p data-it="WhatsApp o email — raccontaci chi sei e cosa ti serve." data-en="WhatsApp or email — tell us who you are and what you need.">WhatsApp o email — raccontaci chi sei e cosa ti serve.</p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="ps-num">02</div>
+                <div class="ps-body">
+                    <h4 data-it="Raccolta info" data-en="Info gathering">Raccolta info</h4>
+                    <p data-it="Ti mandiamo un questionario breve. Compili comodamente da casa." data-en="We send you a short questionnaire. Fill it in from home.">Ti mandiamo un questionario breve. Compili comodamente da casa.</p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="ps-num">03</div>
+                <div class="ps-body">
+                    <h4 data-it="Sviluppo" data-en="Development">Sviluppo</h4>
+                    <p data-it="Creiamo il tuo sito in 3–7 giorni. Ti aggiorniamo ad ogni step." data-en="We build your site in 3–7 days. We update you at every step.">Creiamo il tuo sito in 3–7 giorni. Ti aggiorniamo ad ogni step.</p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="ps-num">04</div>
+                <div class="ps-body">
+                    <h4 data-it="Consegna" data-en="Delivery">Consegna</h4>
+                    <p data-it="Online e pronto. Il codice è tuo — puoi modificarlo quando vuoi." data-en="Live and ready. The code is yours — edit it whenever you want.">Online e pronto. Il codice è tuo — puoi modificarlo quando vuoi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CHI SIAMO -->
+<section id="chi-siamo" class="section section--dark">
+    <div class="section-inner about-inner">
+        <div class="about-text">
+            <div class="section-tag" data-it="Chi siamo" data-en="About us">Chi siamo</div>
+            <h2 data-it="Un developer<br>che capisce<br>il tuo settore." data-en="A developer<br>who understands<br>your industry.">Un developer<br>che capisce<br>il tuo settore.</h2>
+            <p data-it="KC.WebStudio è il progetto di Kevin Como — 20 anni, Commissioning Specialist nel settore industriale con una forte passione per il web development. Conosco il mondo del lavoro dal di dentro: so cosa cerca un recruiter, cosa serve a un'azienda e come un sito può fare la differenza." data-en="KC.WebStudio is Kevin Como's project — 20 years old, Commissioning Specialist in the industrial sector with a strong passion for web development. I know the working world from the inside: I know what a recruiter looks for, what a business needs, and how a website can make the difference.">KC.WebStudio è il progetto di Kevin Como — 20 anni, Commissioning Specialist nel settore industriale con una forte passione per il web development. Conosco il mondo del lavoro dal di dentro: so cosa cerca un recruiter, cosa serve a un'azienda e come un sito può fare la differenza.</p>
+            <a href="https://kcwebstudio.github.io/portfolio/" target="_blank" class="btn btn--ghost" data-it="Vedi il mio portfolio personale →" data-en="See my personal portfolio →">Vedi il mio portfolio personale →</a>
+        </div>
+        <div class="about-card">
+            <div class="about-card-inner">
+                <div class="ac-name">Kevin Como</div>
+                <div class="ac-role" data-it="Founder & Web Developer" data-en="Founder & Web Developer">Founder & Web Developer</div>
+                <div class="ac-divider"></div>
+                <div class="ac-skills">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>GitHub</span>
+                </div>
+                <div class="ac-awards">
+                    <div class="ac-award">🏆 <span data-it="1° Posto Nazionale — CER" data-en="1st Place National — CER">1° Posto Nazionale — CER</span></div>
+                    <div class="ac-award">🥇 <span data-it="1° Posto Regionale — Automazione" data-en="1st Place Regional — Automation">1° Posto Regionale — Automazione</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTATTI -->
+<section id="contatti" class="section">
+    <div class="section-inner contact-inner">
+        <div class="section-header">
+            <div class="section-tag" data-it="Contatti" data-en="Contact">Contatti</div>
+            <h2 data-it="Pronto a iniziare?" data-en="Ready to start?">Pronto a iniziare?</h2>
+            <p class="contact-sub" data-it="Scrivici — rispondo entro poche ore." data-en="Write to us — we reply within a few hours.">Scrivici — rispondo entro poche ore.</p>
+        </div>
+
+        <div class="contact-grid">
+            <a href="https://wa.me/393461729524?text=Ciao%20Kevin!%20Vorrei%20un%20sito%20con%20KC.WebStudio." target="_blank" class="contact-card">
+                <div class="cc-icon">💬</div>
+                <div class="cc-body">
+                    <h4>WhatsApp</h4>
+                    <p data-it="Il modo più veloce" data-en="The fastest way">Il modo più veloce</p>
+                </div>
+                <div class="cc-arrow">→</div>
+            </a>
+            <a href="/cdn-cgi/l/email-protection#79121c0f10171a1614164b4b494c391e14181015571a1614460a0c1b131c1a0d442b101a11101c0a0d185c4b490a100d165c4b49323a572e1c1b2a0d0c1d1016" class="contact-card">
+                <div class="cc-icon">📧</div>
+                <div class="cc-body">
+                    <h4>Email</h4>
+                    <p><span class="__cf_email__" data-cfemail="b5ded0c3dcdbd6dad8da87878580f5d2d8d4dcd99bd6dad8">[email&#160;protected]</span></p>
+                </div>
+                <div class="cc-arrow">→</div>
+            </a>
+            <a href="tel:+393461729524" class="contact-card">
+                <div class="cc-icon">📞</div>
+                <div class="cc-body">
+                    <h4 data-it="Chiamata" data-en="Phone call">Chiamata</h4>
+                    <p>+39 346 172 9524</p>
+                </div>
+                <div class="cc-arrow">→</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-logo">KC<span>.</span>WebStudio</div>
+        <p class="footer-sub" data-it="Siti web professionali su misura." data-en="Professional custom websites.">Siti web professionali su misura.</p>
+        <div class="footer-links">
+            <a href="#servizi" data-it="Servizi" data-en="Services">Servizi</a>
+            <a href="#prezzi" data-it="Prezzi" data-en="Pricing">Prezzi</a>
+            <a href="#contatti" data-it="Contatti" data-en="Contact">Contatti</a>
+            <a href="https://kcwebstudio.github.io/portfolio/" target="_blank" data-it="Portfolio personale" data-en="Personal portfolio">Portfolio personale</a>
+        </div>
+        <div class="footer-copy">© 2025 KC.WebStudio — Kevin Como</div>
+    </div>
+</footer>
+
+<script src="kc-script.js"></script>
+</body>
+</html>
